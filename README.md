@@ -1,9 +1,6 @@
 # POST
 
-[![CI Status](https://img.shields.io/travis/zydeico/POST.svg?style=flat)](https://travis-ci.org/zydeico/POST)
-[![Version](https://img.shields.io/cocoapods/v/POST.svg?style=flat)](https://cocoapods.org/pods/POST)
-[![License](https://img.shields.io/cocoapods/l/POST.svg?style=flat)](https://cocoapods.org/pods/POST)
-[![Platform](https://img.shields.io/cocoapods/p/POST.svg?style=flat)](https://cocoapods.org/pods/POST)
+[![Platform](https://img.shields.io/badge/Platforms-iOS%20%7C%20macOS%20%7C%20watchOS%20%7C%20tvOS-4E4E4E.svg?colorA=6495EDz)x](#installation)
 
 ## Example
 
@@ -22,7 +19,7 @@ pod 'POST'
 
 ## Author
 
-zydeico, daniel.prolite@gmail.com
+zydeico, zydeico@protonmail.com
 
 ## License
 
