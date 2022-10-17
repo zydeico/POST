@@ -1,0 +1,6 @@
+framework module POST {
+  umbrella header "POST-umbrella.h"
+
+  export *
+  module * { export * }
+}
