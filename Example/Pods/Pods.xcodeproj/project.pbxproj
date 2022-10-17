@@ -11,7 +11,7 @@
 		24FC85BD763C4CEE58BB68D46BB4EE57 /* Pods-POST_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 06D8D2531452C51FF96E5AE5702EB19E /* Pods-POST_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2B18A728D281A956CCE9E6413415CAFF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		3A3F0947AC03CBEF8CA3BEDFAB79F4A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		52212C221D89D46D5745844EC08FF8DB /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F342CBC730B92B20894A276B05E4F6 /* ReplaceMe.swift */; };
+		653C33BD28FE0D5600D80314 /* POSTClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653C33BC28FE0D5600D80314 /* POSTClient.swift */; };
 		68F18E133FC7FE135D61E82AFE17087E /* POST-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2155D61B0EE1A134A6251DEFB01628A4 /* POST-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7BAAFB06E8ED29B8EE138382213C0C6C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		9D82B69D6CC83A197D3B909A76544F3A /* Pods-POST_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3527BAC80D6445D19547B1E6B6B347A2 /* Pods-POST_Example-dummy.m */; };
@@ -44,29 +44,29 @@
 		1DF5F8E48EF850CFBD89C9F7995F12EF /* Pods-POST_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-POST_Example-umbrella.h"; sourceTree = "<group>"; };
 		2155D61B0EE1A134A6251DEFB01628A4 /* POST-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "POST-umbrella.h"; sourceTree = "<group>"; };
 		3527BAC80D6445D19547B1E6B6B347A2 /* Pods-POST_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-POST_Example-dummy.m"; sourceTree = "<group>"; };
-		3E4DD1956313635770829DF9308F8BBF /* POST */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = POST; path = POST.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E4DD1956313635770829DF9308F8BBF /* POST.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = POST.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		51F50553D608C9ABBCC070C35B59821B /* Pods-POST_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-POST_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		653C33BC28FE0D5600D80314 /* POSTClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POSTClient.swift; sourceTree = "<group>"; };
 		67BBC495BFD9E4AD3996D5421BEA12F6 /* POST.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = POST.debug.xcconfig; sourceTree = "<group>"; };
 		7227B4A512856782F061CA544E143875 /* Pods-POST_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-POST_Example.modulemap"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		742314BF1F882C79B99DA8F4A2A9A772 /* POST-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "POST-Info.plist"; sourceTree = "<group>"; };
 		7B70B87F1B8E4863CB8D236D9DC8AA87 /* Pods-POST_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-POST_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		7BEE2F4C536F219855B69CCB98C0BD58 /* POST.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = POST.modulemap; sourceTree = "<group>"; };
-		833AD539F2648E97158997954928C61D /* Pods-POST_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-POST_Example"; path = Pods_POST_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		833AD539F2648E97158997954928C61D /* Pods_POST_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_POST_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FEB432F381093FCA82EADED53628705 /* Pods-POST_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-POST_Example-Info.plist"; sourceTree = "<group>"; };
 		929C9C6F8D932C764F702A0D68A86CEA /* Pods-POST_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-POST_Example.release.xcconfig"; sourceTree = "<group>"; };
-		97B94337BFB936F4018A7576D3EF4A47 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97B94337BFB936F4018A7576D3EF4A47 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A086B8E9AC857C2BB9D27812D65BC3F7 /* Pods-POST_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-POST_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A824F814BB16DEA3D65627568A126CB3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		A824F814BB16DEA3D65627568A126CB3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		B35369190AB441ED2E4A0EEB667F7176 /* POST-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "POST-dummy.m"; sourceTree = "<group>"; };
 		C45AA15A90644E40A9E48A81BF7D8882 /* Pods-POST_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-POST_Example-frameworks.sh"; sourceTree = "<group>"; };
 		CA2FD60AB0B4FEB36049167F67F08670 /* Pods-POST_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-POST_Tests-Info.plist"; sourceTree = "<group>"; };
 		CB41AEE371DE2505E0CDDDAD45002CBA /* Pods-POST_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-POST_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D5F342CBC730B92B20894A276B05E4F6 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = POST/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		DA49BB84116A049C3D86670C4A4E882A /* POST.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = POST.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DA49BB84116A049C3D86670C4A4E882A /* POST.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = POST.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		DBEBC0578EF2336E61C5022B46030827 /* POST-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "POST-prefix.pch"; sourceTree = "<group>"; };
-		EA37D0B7F8F9775D3C3D8AFD9F0EB8EE /* Pods-POST_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-POST_Tests"; path = Pods_POST_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA37D0B7F8F9775D3C3D8AFD9F0EB8EE /* Pods_POST_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_POST_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F050C08F607650717359E5F25601DDC6 /* Pods-POST_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-POST_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		F780D0DC6A48C961A70555FAD6E6922A /* POST.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = POST.release.xcconfig; sourceTree = "<group>"; };
 		FA0BB5F25C4D605B37E85C3BF5B47B5E /* Pods-POST_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-POST_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -113,7 +113,7 @@
 		2F452A81BB4AAE4A117E5526A9D36D5B /* POST */ = {
 			isa = PBXGroup;
 			children = (
-				D5F342CBC730B92B20894A276B05E4F6 /* ReplaceMe.swift */,
+				653C33BC28FE0D5600D80314 /* POSTClient.swift */,
 				0D972444BDAD5B2A9C52E0B4B9F53892 /* Pod */,
 				49506381C3CDBBBC1DCB9E9BA8961054 /* Support Files */,
 			);
@@ -216,9 +216,9 @@
 		D6838916C365173F9EBC5F11F6CCA4E0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				833AD539F2648E97158997954928C61D /* Pods-POST_Example */,
-				EA37D0B7F8F9775D3C3D8AFD9F0EB8EE /* Pods-POST_Tests */,
-				3E4DD1956313635770829DF9308F8BBF /* POST */,
+				833AD539F2648E97158997954928C61D /* Pods_POST_Example.framework */,
+				EA37D0B7F8F9775D3C3D8AFD9F0EB8EE /* Pods_POST_Tests.framework */,
+				3E4DD1956313635770829DF9308F8BBF /* POST.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -269,7 +269,7 @@
 			);
 			name = "Pods-POST_Example";
 			productName = Pods_POST_Example;
-			productReference = 833AD539F2648E97158997954928C61D /* Pods-POST_Example */;
+			productReference = 833AD539F2648E97158997954928C61D /* Pods_POST_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		39208AA01FFEFAAD15933E6984436794 /* POST */ = {
@@ -287,7 +287,7 @@
 			);
 			name = POST;
 			productName = POST;
-			productReference = 3E4DD1956313635770829DF9308F8BBF /* POST */;
+			productReference = 3E4DD1956313635770829DF9308F8BBF /* POST.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		81608B8F7CDBA556C15B87F56FC38ECE /* Pods-POST_Tests */ = {
@@ -306,7 +306,7 @@
 			);
 			name = "Pods-POST_Tests";
 			productName = Pods_POST_Tests;
-			productReference = EA37D0B7F8F9775D3C3D8AFD9F0EB8EE /* Pods-POST_Tests */;
+			productReference = EA37D0B7F8F9775D3C3D8AFD9F0EB8EE /* Pods_POST_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -376,7 +376,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B10EF1B108F12BF18C7A0C5355F483A1 /* POST-dummy.m in Sources */,
-				52212C221D89D46D5745844EC08FF8DB /* ReplaceMe.swift in Sources */,
+				653C33BD28FE0D5600D80314 /* POSTClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,7 +422,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/POST/POST-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/POST/POST-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/POST/POST.modulemap";
 				PRODUCT_MODULE_NAME = POST;
@@ -454,7 +454,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-POST_Tests/Pods-POST_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-POST_Tests/Pods-POST_Tests.modulemap";
@@ -488,7 +488,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-POST_Tests/Pods-POST_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-POST_Tests/Pods-POST_Tests.modulemap";
@@ -555,13 +555,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -583,7 +582,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-POST_Example/Pods-POST_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-POST_Example/Pods-POST_Example.modulemap";
@@ -617,7 +616,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-POST_Example/Pods-POST_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-POST_Example/Pods-POST_Example.modulemap";
@@ -650,7 +649,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/POST/POST-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/POST/POST-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/POST/POST.modulemap";
 				PRODUCT_MODULE_NAME = POST;
@@ -718,7 +717,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
