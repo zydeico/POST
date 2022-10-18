@@ -19,7 +19,7 @@ pod 'POST'
 
 ## Author
 
-zydeico, zydeico@protonmail.com
+Daniel Vazquez, zydeico@protonmail.com
 
 ## License
 
