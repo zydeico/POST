@@ -1,6 +1,6 @@
 # POST
 
-[![Platform](https://img.shields.io/badge/Platforms-iOS%20%7C%20macOS%20%7C%20watchOS%20%7C%20tvOS-4E4E4E.svg?colorA=6495EDz)x](#installation)
+[![Platform](https://img.shields.io/badge/Platforms-iOS%20%7C%20macOS%20%7C%20watchOS%20%7C%20tvOS-4E4E4E.svg?colorA=6495EDz)](#installation)
 
 ## Example
 
@@ -19,7 +19,7 @@ pod 'POST'
 
 ## Author
 
-Daniel Vazquez, zydeico@protonmail.com
+Daniel, zydeico@protonmail.com
 
 ## License
 
